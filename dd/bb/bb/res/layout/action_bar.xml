@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/offwhite"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/lyCategory"
+        style="@style/CategoryLayout"
+        android:layout_width="@dimen/drawer_icon_margin_left_open"
+        android:layout_height="match_parent"
+        android:background="@color/grey_actionbar_text_bg"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/txtCategory"
+            style="@style/CategoryText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Categories" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/firstRL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="@dimen/header_layout_padding_right" >
+
+        <ImageView
+            android:id="@+id/imgDrawer"
+            style="@style/DrawerIcon"
+            android:layout_width="@dimen/drawer_icon_width"
+            android:layout_height="@dimen/drawer_icon_height"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:id="@+id/headerTextView"
+            style="@style/HeaderText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dashboard" />
+
+        <ImageView
+            android:id="@+id/imgSearch"
+            style="@style/SearchIcon"
+            android:layout_width="@dimen/drawer_icon_width"
+            android:layout_height="@dimen/drawer_icon_width" />
+    </RelativeLayout>
+
+</LinearLayout>

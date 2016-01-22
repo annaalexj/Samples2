@@ -1,0 +1,132 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	 
+	 <!-- Login -->
+ 	<dimen name="login_icon_size">100dp</dimen>
+ 	
+ 	<dimen name="login_label_textsize">16dp</dimen>
+ 	<dimen name="login_label_width">150dp</dimen>
+ 	<dimen name="login_label_height">30dp</dimen>
+ 	<dimen name="login_label_margin_top">10dp</dimen>
+ 	<dimen name="login_label_margin_bottom">10dp</dimen>
+ 	
+ 	<dimen name="login_input_textsize">14dp</dimen>
+ 	<dimen name="login_input_width">150dp</dimen>
+ 	<dimen name="login_input_height">30dp</dimen>
+ 	
+ 	<dimen name="login_button_textsize">14dp</dimen>
+ 	<dimen name="login_button_margin_top">30dp</dimen>
+ 	<dimen name="login_button_margin_bottom">20dp</dimen>
+ 	<dimen name="login_button_width">120dp</dimen>
+ 	<dimen name="login_button_height">30dp</dimen>
+ 	<dimen name="login_space">150dp</dimen>
+ 	
+ 	<!-- Document List Row -->
+ 	<dimen name="document_name_label_textsize">15dp</dimen>
+ 	<dimen name="document_name_label_bottom">5dp</dimen>
+ 	<dimen name="document_desc_label_textsize">12dp</dimen>
+ 	<dimen name="document_row_ly_top">10dp</dimen>
+ 	<dimen name="document_row_ly_left">20dp</dimen>
+ 	<dimen name="document_row_ly2_bottom">5dp</dimen>
+ 	<dimen name="document_image_width">40dp</dimen>
+ 	<dimen name="document_image_height">40dp</dimen>
+ 	<dimen name="document_image_right">10dp</dimen>
+ 	<dimen name="document_text_width">100dp</dimen>
+ 	<dimen name="document_bar_width">1dp</dimen>
+ 	<dimen name="document_bar_top">10dp</dimen>
+ 	<dimen name="document_bar_bottom">10dp</dimen>
+ 	
+ 	
+ 	<!-- Actionbar -->
+ 	<dimen name="drawer_icon_margin_left_open">240dp</dimen>
+ 	<dimen name="drawer_icon_margin_left_close">10dp</dimen>
+ 	<dimen name="drawer_icon_width">30dp</dimen>
+ 	<dimen name="drawer_icon_height">30dp</dimen>
+ 	
+ 	<dimen name="header_name_label_textsize">16dp</dimen>
+ 	<dimen name="header_layout_padding_right">10dp</dimen>
+ 	
+ 	
+ 	
+ 	
+ 	<!-- Drawer Layout -->
+ 	<dimen name="drawer_width">240dp</dimen>
+ 	<dimen name="group_height">50dp</dimen>
+ 	<dimen name="group_padding_left">10dp</dimen>
+ 	<dimen name="child_height">50dp</dimen>
+ 	<dimen name="child_padding_left">30dp</dimen>
+ 	<dimen name="group_text_size">17dp</dimen>
+ 	<dimen name="child_text_size">13dp</dimen>
+ 	
+ 	<!-- ViewPager-->
+ 	<dimen name="pager_height">110dp</dimen>
+ 	
+ 	<!-- Home UI-->
+ 	<dimen name="list_margin">30dp</dimen>
+ 	<dimen name="list_margin_top">30dp</dimen>
+ 	<dimen name="list_margin_bottom">10dp</dimen>
+ 	
+ 	
+ 	<!-- Inner category -->
+ 	<dimen name="inner_cat_ly_height">80dp</dimen>
+ 	<dimen name="inner_cat_ly_header_height">40dp</dimen>
+ 	<dimen name="inner_cat_image_height">40dp</dimen>
+ 	<dimen name="inner_cat_image_width">40dp</dimen>
+ 	<dimen name="inner_cat_image_left">15dp</dimen>
+ 	<dimen name="inner_cat_image_right">15dp</dimen>
+ 	<dimen name="inner_cat_text_header_height">40dp</dimen>
+ 	<dimen name="inner_cat_text_header_width">40dp</dimen>
+ 	<dimen name="inner_cat_text_height">30dp</dimen>
+ 	<dimen name="inner_cat_text_left">20dp</dimen>
+ 	<dimen name="inner_cat_text_top">5dp</dimen>
+ 	<dimen name="inner_cat_text_bottom">15dp</dimen>
+ 	<dimen name="inner_cat_header_textsize">12dp</dimen>
+ 	<dimen name="inner_cat_list_textsize">16dp</dimen>
+ 	
+ 	<dimen name="inner_sublist_text_height">40dp</dimen>
+ 	<dimen name="inner_sublist_row_height">40dp</dimen>
+ 	<dimen name="inner_sublist_padding_left">20dp</dimen>
+ 	<dimen name="inner_sublist_text_size">13dp</dimen>
+ 	
+ 	<!-- Search -->
+ 	<dimen name="search_bg_margin_width">7dp</dimen>
+ 	<dimen name="search_height">50dp</dimen>
+ 	<dimen name="search_padding">5dp</dimen>
+ 	<dimen name="search_bg_margin_left">10dp</dimen>
+ 	<dimen name="search_bg_margin_top">20dp</dimen>
+ 	
+ 	<!-- Expert locator -->
+ 	<dimen name="call_image_width">25dp</dimen>
+ 	<dimen name="call_image_height">25dp</dimen>
+ 	<dimen name="expert_row_ly_top">5dp</dimen>
+ 	<dimen name="expert_row_ly_left">20dp</dimen>
+ 	<dimen name="expert_bar_top">5dp</dimen>
+ 	<dimen name="expert_bar_bottom">5dp</dimen>
+ 	<dimen name="expert_cell_ly_top">5dp</dimen>
+ 	<dimen name="expert_cell_ly_left">5dp</dimen>
+ 	<dimen name="expert_cell_width">80dp</dimen>
+ 	<dimen name="expert_cell_height">50dp</dimen>
+ 	<dimen name="expert_cell_text_size">11dp</dimen>
+ 	<dimen name="expert_ui_ly_top">7dp</dimen>
+ 	<dimen name="expert_ui_ly_left">20dp</dimen>
+ 	<dimen name="expert_ui_label_text">14dp</dimen>
+ 	<dimen name="expert_group_label_text">12dp</dimen>
+ 	<dimen name="expert_group_label_top">5dp</dimen>
+ 	<dimen name="expert_group_label_bottom">3dp</dimen>
+ 	<dimen name="expert_group_label_left">5dp</dimen>
+ 	<dimen name="expert_rows_margin">20dp</dimen>
+ 	<dimen name="expert_name_label_bottom">2dp</dimen>
+ 	<dimen name="expert_name_label_textsize">16dp</dimen>
+ 	<dimen name="expert_desc_label_textsize">12dp</dimen>
+ 	<dimen name="expert_id_label_textsize">12dp</dimen>
+ 	
+ 	<!-- Thumbs Up -->
+ 	<dimen name="thumbsup_width">20dp</dimen>
+ 	<dimen name="thumbsup_height">30dp</dimen>
+ 	
+ 	<dimen name="pdf_header_left">20dp</dimen>
+ 	<dimen name="pdf_back_left">30dp</dimen>
+</resources>

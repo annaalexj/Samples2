@@ -1,0 +1,175 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+       
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+        <item name="actionBarStyle">@style/ActionBarStyle</item>
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+        <!-- <item name="android:actionBarStyle">@style/MyActionBar</item> -->
+        <!--
+        Support library compatibility
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        -->
+    </style>
+    
+     <style name="ActionBarStyle" parent="@style/Widget.AppCompat.Light.ActionBar">
+    <item name="android:titleTextStyle">@style/ActionBarTitleTextStyle</item>
+    <item name="titleTextStyle">@style/ActionBarTitleTextStyle</item>
+    <item name="android:background">@color/offwhite</item>
+  </style>
+
+  <style name="ActionBarTitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    
+      	<item name="android:background">@color/offwhite</item>
+      	  <item name="background">@color/offwhite</item>
+      
+  </style>
+    
+    
+    
+    
+    <!-- ActionBar styles -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@color/offwhite</item>
+
+        <!-- Support library compatibility -->
+        <item name="background">@color/offwhite</item>
+        <item name="android:displayOptions">showHome|homeAsUp|showTitle</item>
+        <item name="displayOptions">showHome|homeAsUp|showTitle</item>
+        <item name="android:icon">@color/transparent</item>
+    </style>
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!-- Login screen. -->
+    <style name="LoginInput">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/login_input_textsize</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:background">@null</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:autoText">false</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="LoginText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/login_label_textsize</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:text">@string/login_label</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/login_label_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/login_label_margin_bottom</item>
+    </style>
+
+    <style name="LoginButton">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/login_button_textsize</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">@dimen/login_button_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/login_button_margin_bottom</item>
+        <item name="android:background">@drawable/btn_login</item>
+        <item name="android:text">@string/login_button_text</item>
+    </style>
+
+    <!-- Home UI Document listing screen. -->
+
+    <style name="DocumentNameText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/document_name_label_textsize</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:singleLine">false</item>
+    </style>
+
+    <style name="DocumentDescText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/document_desc_label_textsize</item>
+        <item name="android:textColor">@color/black_light</item>
+        <item name="android:singleLine">false</item>
+    </style>
+
+    <!-- Home UI actionbar layout. -->
+    <style name="HeaderText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/header_name_label_textsize</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <style name="CategoryText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/header_name_label_textsize</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="CategoryLayout">
+        <item name="android:layout_gravity">center_vertical</item>
+    </style>
+
+    <style name="DrawerIcon">
+        <item name="android:layout_marginLeft">@dimen/drawer_icon_margin_left_close</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:src">@drawable/icon_menu</item>
+    </style>
+
+    <style name="SearchIcon">
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:src">@drawable/ic_action_search</item>
+    </style>
+
+    
+    <!-- Expert Locator -->
+     <style name="ExpertIdText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/expert_id_label_textsize</item>
+        <item name="android:textColor">@color/black_light</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    
+     <style name="ExpertNameText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/expert_name_label_textsize</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    <style name="ExpertDescText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/expert_desc_label_textsize</item>
+        <item name="android:textColor">@color/black_light</item>
+        <item name="android:singleLine">false</item>
+    </style>
+    
+    <!-- PDF VIEWER -->
+    <!-- Home UI actionbar layout. -->
+    <style name="PDFText">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/header_name_label_textsize</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_centerVertical">true</item>
+       
+        
+    </style>
+</resources>

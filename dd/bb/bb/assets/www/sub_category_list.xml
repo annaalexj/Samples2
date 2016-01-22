@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Categorys>
+  <MainCategory>
+            <CategoryID>100</CategoryID>
+            <CategoryName>Corporate</CategoryName>
+            <Count>7</Count>
+            <Subcategorys>
+	                <CategoryID>110</CategoryID>
+	                <CategoryName>2015</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>120</CategoryID>
+	                <CategoryName>c Corporate Information</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>130</CategoryID>
+	                <CategoryName>Corporate Deck</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>140</CategoryID>
+	                <CategoryName>Financials</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>150</CategoryID>
+	                <CategoryName>Location</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>160</CategoryID>
+	                <CategoryName>Org Chart</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>170</CategoryID>
+	                <CategoryName>SET Recommended</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+	</MainCategory>	
+	<MainCategory>
+            <CategoryID>200</CategoryID>
+            <CategoryName>BFS</CategoryName>
+            <Count>9</Count>  
+			<Subcategorys>
+	                <CategoryID>210</CategoryID>
+	                <CategoryName>BFS Deck</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>220</CategoryID>
+	                <CategoryName>BFS Products</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>230</CategoryID>
+	                <CategoryName>BFS TCG</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>240</CategoryID>
+	                <CategoryName>CIO Deck</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>250</CategoryID>
+	                <CategoryName>Domain capabilities</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>260</CategoryID>
+	                <CategoryName>Equinox</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>270</CategoryID>
+	                <CategoryName>Others</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>  
+              <Subcategorys>
+	                <CategoryID>280</CategoryID>
+	                <CategoryName>SET Recommended</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>  
+            <Subcategorys>
+	                <CategoryID>290</CategoryID>
+	                <CategoryName>Top BFS Accounts</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>  
+	</MainCategory>
+	<MainCategory>
+            <CategoryID>300</CategoryID>
+            <CategoryName>Deals and Decks</CategoryName> 
+            <FolderName>Proposal Tracker</FolderName>         
+			<Count>4</Count> 
+			<Subcategorys>
+                <CategoryID>310</CategoryID>
+                <CategoryName>Client Presentations</CategoryName>
+                <Count>0</Count>
+	        </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>220</CategoryID>
+	                <CategoryName>Executive Summary &amp; Win Themes</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>330</CategoryID>
+	                <CategoryName>Marketing Material</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>340</CategoryID>
+	                <CategoryName>Proposal Store</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>   
+	</MainCategory>
+	<MainCategory>
+            <CategoryID>400</CategoryID>
+            <CategoryName>SGOs</CategoryName>
+            <FolderName>SGO</FolderName>
+			<Count>6</Count>
+            <Subcategorys>
+	                <CategoryID>410</CategoryID>
+	                <CategoryName>Business Analytics</CategoryName>
+	                <Count>6</Count>
+	                <InnerSubcategorys>
+		                <CategoryID>411</CategoryID>
+		                <CategoryName>Case Studies</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>412</CategoryID>
+		                <CategoryName>RFIs/RFPs</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>413</CategoryID>
+		                <CategoryName>Industry trends</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>414</CategoryID>
+		                <CategoryName>Our POV</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>415</CategoryID>
+		                <CategoryName>Collaterals</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>416</CategoryID>
+		                <CategoryName>Miscellaneous</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>420</CategoryID>
+	                <CategoryName>Business Transformation</CategoryName>
+	                <Count>6</Count>
+	                <InnerSubcategorys>
+		                <CategoryID>421</CategoryID>
+		                <CategoryName>Case Studies</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>422</CategoryID>
+		                <CategoryName>RFIs/RFPs</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>423</CategoryID>
+		                <CategoryName>Industry trends</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>424</CategoryID>
+		                <CategoryName>Our POV</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>425</CategoryID>
+		                <CategoryName>Collaterals</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>426</CategoryID>
+		                <CategoryName>Miscellaneous</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>430</CategoryID>
+	                <CategoryName>Delivery Transformation</CategoryName>
+	                <Count>6</Count>
+	                <InnerSubcategorys>
+		                <CategoryID>431</CategoryID>
+		                <CategoryName>Case Studies</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>432</CategoryID>
+		                <CategoryName>RFIs/RFPs</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>433</CategoryID>
+		                <CategoryName>Industry trends</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>434</CategoryID>
+		                <CategoryName>Our POV</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>435</CategoryID>
+		                <CategoryName>Collaterals</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>436</CategoryID>
+		                <CategoryName>Miscellaneous</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>440</CategoryID>
+	                <CategoryName>Digital Bank of the Future</CategoryName>
+	                <Count>6</Count>
+	                <InnerSubcategorys>
+		                <CategoryID>441</CategoryID>
+		                <CategoryName>Case Studies</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>442</CategoryID>
+		                <CategoryName>RFIs/RFPs</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>443</CategoryID>
+		                <CategoryName>Industry trends</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>444</CategoryID>
+		                <CategoryName>Our POV</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>445</CategoryID>
+		                <CategoryName>Collaterals</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>446</CategoryID>
+		                <CategoryName>Miscellaneous</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>450</CategoryID>
+	                <CategoryName>Growth Markets</CategoryName>
+	                <Count>6</Count>
+	                <InnerSubcategorys>
+		                <CategoryID>451</CategoryID>
+		                <CategoryName>Case Studies</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>452</CategoryID>
+		                <CategoryName>RFIs/RFPs</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>453</CategoryID>
+		                <CategoryName>Industry trends</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>454</CategoryID>
+		                <CategoryName>Our POV</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>455</CategoryID>
+		                <CategoryName>Collaterals</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>456</CategoryID>
+		                <CategoryName>Miscellaneous</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>460</CategoryID>
+	                <CategoryName>Risk and Compliance</CategoryName>
+	                <Count>6</Count>
+	                <InnerSubcategorys>
+		                <CategoryID>461</CategoryID>
+		                <CategoryName>Case Studies</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>462</CategoryID>
+		                <CategoryName>RFIs/RFPs</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>463</CategoryID>
+		                <CategoryName>Industry trends</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>464</CategoryID>
+		                <CategoryName>Our POV</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>465</CategoryID>
+		                <CategoryName>Collaterals</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>466</CategoryID>
+		                <CategoryName>Miscellaneous</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+            </Subcategorys>
+	</MainCategory>
+	<MainCategory>
+            <CategoryID>500</CategoryID>
+            <CategoryName>Case Studies</CategoryName>
+			<Count>13</Count>   
+			<Subcategorys>
+	               	<CategoryID>510</CategoryID>
+	               	<CategoryName>Application Development</CategoryName>
+	               	<Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>520</CategoryID>
+	                <CategoryName>Application Maintenance</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>530</CategoryID>
+	                <CategoryName>Client Relationship Overview</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>540</CategoryID>
+	                <CategoryName>Digital Security / GIS</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>550</CategoryID>
+	                <CategoryName>Domain</CategoryName>
+	                <Count>8</Count>
+	                <InnerSubcategorys>
+		                <CategoryID>551</CategoryID>
+		                <CategoryName>Asset and Wealth Management</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>552</CategoryID>
+		                <CategoryName>Cards and Payments</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>553</CategoryID>
+		                <CategoryName>Consumer Lending</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>554</CategoryID>
+		                <CategoryName>Governance Risk and Compliance</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>555</CategoryID>
+		                <CategoryName>Investment Banking and Brokerage</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>556</CategoryID>
+		                <CategoryName>Retail Banking</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>557</CategoryID>
+		                <CategoryName>Securities Services</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>558</CategoryID>
+		                <CategoryName>Wholesale Banking</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>560</CategoryID>
+	                <CategoryName>Engagement Models</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>570</CategoryID>
+	                <CategoryName>Horizontals</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>  
+            <Subcategorys>
+	                <CategoryID>580</CategoryID>
+	                <CategoryName>Knowledge Transition</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>  
+            <Subcategorys>
+	                <CategoryID>590</CategoryID>
+	                <CategoryName>Others</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>   
+            <Subcategorys>
+	                <CategoryID>591</CategoryID>
+	                <CategoryName>Products</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>   
+            <Subcategorys>
+	                <CategoryID>592</CategoryID>
+	                <CategoryName>Project Management</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>   
+            <Subcategorys>
+	                <CategoryID>593</CategoryID>
+	                <CategoryName>SMAC</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>     
+            <Subcategorys>
+	                <CategoryID>594</CategoryID>
+	                <CategoryName>Transformation and Innovation</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>      
+	</MainCategory>
+	<MainCategory>
+            <CategoryID>600</CategoryID>
+            <CategoryName>Reusable Assets</CategoryName>
+			<Count>15</Count>
+			<Subcategorys>
+	                <CategoryID>610</CategoryID>
+	                <CategoryName>Application Development</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>620</CategoryID>
+	                <CategoryName>Application Maintenance</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>630</CategoryID>
+	                <CategoryName>Differentiators/Productivity Improvements/Value Adds</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>640</CategoryID>
+	                <CategoryName>Editables</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>650</CategoryID>
+	                <CategoryName>Engagement Models</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>660</CategoryID>
+	                <CategoryName>HR</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>670</CategoryID>
+	                <CategoryName>Pricing Models</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>    
+            <Subcategorys>
+	                <CategoryID>680</CategoryID>
+	                <CategoryName>Products and Tools</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>690</CategoryID>
+	                <CategoryName>Project Management</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>691</CategoryID>
+	                <CategoryName>SET Recommended</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>692</CategoryID>
+	                <CategoryName>Templates and Guidelines</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>693</CategoryID>
+	                <CategoryName>Transformation and Innovation</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>694</CategoryID>
+	                <CategoryName>Transition and KM</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>695</CategoryID>
+	                <CategoryName>Useful Links</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>696</CategoryID>
+	                <CategoryName>Win/Loss Analysis</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>    
+	</MainCategory>
+	<MainCategory>
+            <CategoryID>700</CategoryID>
+            <CategoryName>Horizontal Capabilities</CategoryName>
+            <FolderName>Horizontal Capability Decks</FolderName>
+			<Count>15</Count> 
+			<Subcategorys>
+	                <CategoryID>710</CategoryID>
+	                <CategoryName>Analytics</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>720</CategoryID>
+	                <CategoryName>ASP</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>730</CategoryID>
+	                <CategoryName>BPS</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>740</CategoryID>
+	                <CategoryName>Cloud</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>750</CategoryID>
+	                <CategoryName>c Interactive</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>760</CategoryID>
+	                <CategoryName>Consulting</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>770</CategoryID>
+	                <CategoryName>CSP</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>    
+            <Subcategorys>
+	                <CategoryID>780</CategoryID>
+	                <CategoryName>EIM</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>790</CategoryID>
+	                <CategoryName>GTO</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>791</CategoryID>
+	                <CategoryName>ITIS</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>792</CategoryID>
+	                <CategoryName>Mobility</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>793</CategoryID>
+	                <CategoryName>OSP</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>794</CategoryID>
+	                <CategoryName>Testing</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>795</CategoryID>
+	                <CategoryName>SAP</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>796</CategoryID>
+	                <CategoryName>Social</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>    
+	</MainCategory>
+	<MainCategory>
+            <CategoryID>800</CategoryID>       
+            <CategoryName>Research Reports</CategoryName>
+            <FolderName>Analyst Reports</FolderName>
+			<Count>7</Count>  
+			<Subcategorys>
+	                <CategoryID>810</CategoryID>
+	                <CategoryName>Competitor/Customer Research</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>820</CategoryID>
+	                <CategoryName>CRC</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>830</CategoryID>
+	                <CategoryName>Everest</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>840</CategoryID>
+	                <CategoryName>Forrester</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>850</CategoryID>
+	                <CategoryName>Gartner</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>860</CategoryID>
+	                <CategoryName>Others</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>870</CategoryID>
+	                <CategoryName>Tower</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>           
+        </MainCategory>
+        <MainCategory>
+            <CategoryID>900</CategoryID>
+            <CategoryName>AVM SBU</CategoryName>
+            <FolderName>AVM</FolderName>
+			<Count>3</Count>  
+			<Subcategorys>
+	                <CategoryID>910</CategoryID>
+	                <CategoryName>AVM CoE Content</CategoryName>
+	                <ParentName>AVM Links</ParentName>
+	                <Count>4</Count>
+	                <InnerSubcategorys>
+		                <CategoryID>911</CategoryID>
+		                <CategoryName>AVM - BD Corner</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>912</CategoryID>
+		                <CategoryName>AVM - Engagement Journey</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>913</CategoryID>
+		                <CategoryName>AVM - Managed Services</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+	            	<InnerSubcategorys>
+		                <CategoryID>914</CategoryID>
+		                <CategoryName>AVM Portals</CategoryName>
+		                <Count>0</Count>
+	            	</InnerSubcategorys>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>920</CategoryID>
+	                <CategoryName>Case Studies</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>
+            <Subcategorys>
+	                <CategoryID>930</CategoryID>
+	                <CategoryName>Reusable Assets</CategoryName>
+	                <Count>0</Count>
+            </Subcategorys>         
+            </MainCategory>
+ </Categorys>

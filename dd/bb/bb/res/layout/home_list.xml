@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/white">
+ 
+      
+    <android.support.v4.view.ViewPager
+        android:id="@+id/dashboardViewPager"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/pager_height"
+        android:visibility="visible"
+         />
+	<LinearLayout  
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lyInnerCategory"
+        android:orientation="vertical" >
+	   
+		   <LinearLayout
+		       android:id="@+id/lyInnerCategoryHeader"
+		       android:layout_width="fill_parent"
+		       android:layout_height="@dimen/inner_cat_ly_header_height"
+		       android:background="@color/innercat_header_bg_nocat"
+		       android:gravity="center_vertical"
+		       android:orientation="horizontal" >
+ 
+		      
+		        <ImageView  
+			    android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		       
+		        android:src="@drawable/ic_action_expand"
+		        android:id="@+id/imgInnerCategory"
+		         android:layout_marginLeft="@dimen/inner_cat_image_left"
+		        android:layout_marginRight="@dimen/inner_cat_image_right"
+		        >
+				</ImageView>
+				
+		       
+				<TextView  
+					    android:layout_width="fill_parent"
+				        android:layout_height="fill_parent"
+				        android:id="@+id/txtInnerCategoryHeader" 
+				        android:text=""
+				       
+				        android:gravity="center_vertical"
+				        android:textColor="@color/innercat_header_text_nocat"
+				        android:textSize="@dimen/inner_cat_header_textsize">
+				</TextView>
+			</LinearLayout> 
+			<TextView  
+		    android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/txtInnerCategoryList"
+	        android:layout_marginLeft="@dimen/inner_cat_text_left"
+	        android:layout_marginTop="@dimen/inner_cat_text_top"
+	        android:layout_marginBottom="@dimen/inner_cat_text_bottom"
+	        android:gravity="center_vertical"
+	        android:text=""
+	        android:textColor="@color/black"
+	        android:textSize="@dimen/inner_cat_list_textsize"
+		        >
+		</TextView>
+	</LinearLayout>
+	
+	<include layout="@layout/search_ui" 
+	    android:visibility="gone"/>
+	<include layout="@layout/expert_locator_ui" 
+	    android:visibility="gone"/>
+    <LinearLayout  
+	    android:layout_width="fill_parent"
+        android:layout_height="@dimen/list_margin_top"
+        android:id="@+id/lyMarginLayout"
+        android:orientation="vertical" >
+	
+	</LinearLayout>
+	<ListView
+        android:id="@+id/lstDocuments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true" 
+        android:layout_marginLeft="@dimen/list_margin"
+        android:layout_marginRight="@dimen/list_margin"
+        
+        android:layout_marginBottom="@dimen/list_margin_bottom"
+        android:divider="@null" />
+
+</LinearLayout>

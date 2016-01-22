@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:id="@+id/lyExpertLocator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/expert_ui_ly_top"
+        android:layout_marginLeft="@dimen/expert_ui_ly_left"
+        android:layout_marginRight="@dimen/expert_ui_ly_left"
+        android:layout_marginTop="@dimen/expert_ui_ly_top"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtExpertLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=""
+            android:textSize="@dimen/expert_ui_label_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/expert_group_label_bottom"
+            android:layout_marginLeft="@dimen/expert_group_label_left"
+            android:layout_marginRight="@dimen/expert_group_label_left"
+            android:layout_marginTop="@dimen/expert_group_label_top"
+            android:gravity="center_vertical"
+            android:text="Groups:"
+            android:textSize="@dimen/expert_group_label_text"
+            android:textStyle="normal" />
+
+        <HorizontalScrollView
+            android:id="@+id/lyExpertMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+        
+            android:background="@color/search_main_bg" >
+
+            <LinearLayout
+                android:id="@+id/lyExpertLocatorMainContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/txtTeamsLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/expert_group_label_bottom"
+            android:layout_marginLeft="@dimen/expert_group_label_left"
+            android:layout_marginRight="@dimen/expert_group_label_left"
+            android:layout_marginTop="@dimen/expert_group_label_top"
+            android:gravity="center_vertical"
+            android:text="Teams:"
+            android:textSize="@dimen/expert_group_label_text"
+            android:textStyle="normal" />
+
+        <HorizontalScrollView
+            android:id="@+id/lyExpertSub"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           
+            android:background="@color/search_main_bg" >
+
+            <LinearLayout
+                android:id="@+id/lyExpertLocatorSubContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+            </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</merge>

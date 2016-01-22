@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Body>
+<QueryExResponse >
+<QueryExResult>
+<Results >
+<RelevantResults >
+  <WorkId>6396</WorkId> 
+  <Rank>76043064</Rank> 
+  <Title>ANZ.zip</Title> 
+ <Author>
+  <string>System Account</string> 
+  <string>Salako</string> 
+  <string>Randall Hensley</string> 
+  </Author>
+  <Size>12153512</Size> 
+  <Path>https://bfs-set.c.com/Proposal Tracker/Client Presentations/ANZ.zip</Path> 
+  <Write>2014-04-06T16:38:53+05:30</Write> 
+  <SiteName>https://bfs-set.c.com/Proposal Tracker/Client Presentations</SiteName> 
+  <CollapsingStatus>1</CollapsingStatus> 
+  <HitHighlightedSummary>ANZ Bank Enhancing Customer Experience, Enterprise Payments Cash Management <ddd/> ANZ CIO Meet - 3 Enterprise Payment Cash Mgmt v1.2.pptx <ddd/> Integrated Treasury Solutions – Supply Chain Financing and Services <ddd/></HitHighlightedSummary> 
+  <HitHighlightedProperties><HHTitle><c0>ANZ.zip</c0></HHTitle><HHUrl>https://bfs-set.c.com/Proposal Tracker/Client Presentations/ANZ.zip</HHUrl></HitHighlightedProperties> 
+  <ContentClass>STS_ListItem_DocumentLibrary</ContentClass> 
+  <IsDocument>true</IsDocument> 
+  </RelevantResults>
+<RelevantResults >
+  <WorkId>10777</WorkId> 
+  <Rank>76041412</Rank> 
+  <Title>ANZ.zip</Title> 
+<Author>
+  <string>System Account</string> 
+  <string>Ahmed Abdelmoteleb</string> 
+  <string>Laura Morgan</string> 
+  <string>Shanahad</string> 
+  <string>Horizon Program</string> 
+  <string>Randall Hensley</string> 
+  <string>Salako</string> 
+  </Author>
+  <Size>11787744</Size> 
+  <Path>https://bfs-set.c.com/Proposal Tracker/Proposal Store/ANZ.zip</Path> 
+  <Write>2015-01-16T07:41:20+05:30</Write> 
+  <SiteName>https://bfs-set.c.com/Proposal Tracker/Proposal Store</SiteName> 
+  <CollapsingStatus>0</CollapsingStatus> 
+  <HitHighlightedSummary>ANZ CIO Meet for Vendor Consolidation <ddd/> Attempt to get into the preferred vendor list of ANZ <ddd/> Investment Banking &amp; BrokerageAsset &amp; Wealth ManagementSecurities ServicesCards &amp; PaymentsWholesale Banking <ddd/></HitHighlightedSummary> 
+  <HitHighlightedProperties><HHTitle><c0>ANZ.zip</c0></HHTitle><HHUrl>https://bfs-set.c.com/Proposal Tracker/Proposal Store/ANZ.zip</HHUrl></HitHighlightedProperties> 
+  <ContentClass>STS_ListItem_DocumentLibrary</ContentClass> 
+  <IsDocument>true</IsDocument> 
+  </RelevantResults>
+  </Results>
+  </QueryExResult>
+  </QueryExResponse>
+  </soap:Body>
+  </soap:Envelope>

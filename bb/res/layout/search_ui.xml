@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:id="@+id/lySearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/search_bg_margin_top"
+        android:layout_marginLeft="@dimen/search_bg_margin_left"
+        android:layout_marginRight="@dimen/search_bg_margin_left"
+        android:layout_marginTop="@dimen/search_bg_margin_top"
+        android:background="@color/search_main_bg"
+        android:orientation="vertical" >
+
+         <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/search_height"
+         android:id="@+id/txtSearch"
+         android:hint="Enter search term"
+         android:singleLine="true"
+         android:gravity="center_vertical"
+         android:layout_margin="@dimen/search_bg_margin_width"
+            android:background="@drawable/bg_search_box"
+            android:imeOptions="actionSearch" 
+            android:padding="@dimen/search_padding"
+        android:drawableLeft="@drawable/ic_action_search"
+         android:drawableRight="@drawable/ic_action_remove1"
+         />
+        
+        <!-- <SearchView
+            android:id="@+id/txtSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/search_bg_margin_width"
+            android:background="@drawable/bg_search_box"
+            android:imeOptions="actionSearch" >
+        </SearchView> -->
+    </LinearLayout>
+
+</merge>

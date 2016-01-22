@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:Microsoft.Search">
+   <soapenv:Header/>
+   <soapenv:Body>
+       <!--  <QueryEx xmlns="http://microsoft.com/webservices/OfficeServer/QueryService"> -->
+      <QueryEx><queryXml>
+      <![CDATA[<QueryPacket xmlns="urn:Microsoft.Search.Query" Revision="1000">
+      <Query domain="QDomain">
+      <SupportedFormats>
+      <Format>urn:Microsoft.Search.Response.Document.Document</Format>
+      </SupportedFormats>
+      <Range><Count>10</Count></Range>
+      <Context>
+      <QueryText language="en-US" type="STRING">IsDocument:true SCOPE:"All Sites" anz.zip SITE:"https://bfs-set.c.com"</QueryText>
+      </Context>
+      </Query>
+      </QueryPacket>]]></queryXml></QueryEx>
+   </soapenv:Body>
+</soapenv:Envelope>

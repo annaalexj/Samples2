@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.customdrawer.CustomActionbarActivity" >
+   <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@drawable/ic_action_search"
+      app:showAsAction="ifRoom"/>"
+   <!--  <item
+        android:id="@+id/drawer"
+        android:title="drawer"
+        android:icon="@drawable/ic_drawer"
+        app:showAsAction="always"/> -->
+
+</menu>

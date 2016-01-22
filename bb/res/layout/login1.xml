@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+     android:background="@color/white"
+    android:gravity="center_horizontal"
+    
+     >
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+     android:background="@color/white"
+     android:layout_gravity="center"
+    android:id="@+id/ff"
+    >
+
+<RelativeLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+     android:background="@color/white"
+    android:gravity="center_horizontal"
+    
+     android:weightSum="1">
+    
+ <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"    
+     android:background="@color/white"
+      android:orientation="vertical" 
+      android:id="@+id/RLlogin"
+      android:gravity="center_horizontal"
+     android:layout_weight="1"
+    >   
+<ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="@dimen/login_icon_size"
+        android:layout_height="@dimen/login_icon_size"
+        android:src="@drawable/app_icon"
+        android:layout_marginTop="10dp"/>
+<TextView
+        android:id="@+id/txtLogo"
+        android:layout_width="@dimen/login_label_width"
+        android:layout_height="@dimen/login_label_height"
+        android:gravity="center"
+        style="@style/LoginText"/>
+    <EditText
+        android:id="@+id/edtxtUserName"
+        android:layout_width="@dimen/login_input_width"
+        android:layout_height="@dimen/login_input_height"
+        style="@style/LoginInput"  
+        android:text=""
+        android:hint="@string/login_hint_enter_username"
+        android:imeOptions="actionNext" />
+
+    <ImageView       
+        android:layout_width="@dimen/login_input_width"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="#000000"/>
+
+    <EditText
+        android:id="@+id/edtxtPassword"
+        android:layout_width="@dimen/login_input_width"
+        android:layout_height="@dimen/login_input_height"
+        android:password="true"
+        style="@style/LoginInput"     
+        android:text=""
+        android:hint="@string/login_hint_enter_password"
+        android:imeOptions="actionDone"/>
+    <ImageView     
+        android:layout_width="@dimen/login_input_width"
+        android:layout_height="1dp"
+        android:layout_gravity="center"
+        android:background="#000000"/>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="@dimen/login_button_width"
+        android:layout_height="@dimen/login_button_height"
+        style="@style/LoginButton"  />
+</LinearLayout>
+
+</RelativeLayout>
+    </ScrollView>
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+    <TextView
+        android:id="@+id/txtSigninProblem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:layout_below="@+id/ff"
+        android:layout_gravity="bottom|center_horizontal"
+       android:textSize="@dimen/login_input_textsize"
+       android:layout_marginBottom="5dp"
+        android:text="Problem Signing in?"
+        />
+    </LinearLayout>
+</LinearLayout>

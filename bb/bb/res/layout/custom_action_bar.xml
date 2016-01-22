@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/offwhite"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/firstRL"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="@dimen/header_layout_padding_right" >
+
+        <ImageView
+            android:id="@+id/imgBack"
+       
+             android:layout_centerVertical="true"
+               android:src="@drawable/ic_action_previous_item_black"
+            android:layout_width="@dimen/drawer_icon_width"
+            android:layout_height="@dimen/drawer_icon_height"
+            android:layout_alignParentLeft="true" />
+
+        
+
+        <TextView
+            android:id="@+id/txtBack"
+            android:text="Back"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/pdf_back_left"
+            android:textColor="@color/black"
+             android:textSize="@dimen/header_name_label_textsize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/imgDrawer" />
+        
+        <TextView
+            android:id="@+id/headerTextView"
+              android:layout_marginLeft="@dimen/pdf_header_left"
+            style="@style/PDFText"
+            android:layout_toRightOf="@+id/txtBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            
+            android:layout_alignParentRight="true"
+            android:text="ddd" />
+    </RelativeLayout>
+
+</LinearLayout>

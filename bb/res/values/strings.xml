@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   
+    <string name="app_name">BFS SET</string>
+    <string name="no_network">Please check the network</string>
+    
+     <string name="offline_label">OFFLINE</string>
+     <string name="offline_message">You are currently offline. Please connect to internet</string>
+     
+    <string name="empty_message">No data to display</string>
+    <string name="no_file">File does not exist</string>
+    <string name="no_results">No Results</string>
+    <!-- Login Screen -->
+    <string name="login_hint_enter_uname">Enter c Username</string>
+    <string name="login_hint_enter_pwd">Enter c Password</string>
+    
+    <!--  Welcome Screen -->
+    <string name="welcome_text">Get started here by configuring your home screen with your favorite services from various experience the fun of reading.</string>
+
+    <string name="doc_no_display_message">Sorry! Can not display file</string>
+
+    <string name="logout">Logout</string>
+ 
+    <!-- Doc Viewer warning dialog -->
+    <string name="doc_warning"> c\'s Atlas contains highly confidential and proprietary information of c Technology Solutions U. S. Corporation and its global affiliates (collectively, \'c\'), including c clients and third party licensors. Any and all information, including, without limitation, marketing collateral, documents, and other tangible and intangible materials (collectively, \'Materials\'), accessed through this site, regardless of how such Materials are marked, shall at all times be considered c Confidential and Proprietary Information and shall not be shared with any individual or entity outside of c (including clients, independent contractors, subcontractors, vendors, etc.). Materials are for internal review and use only, and may only be shared upon receipt of written permission from the appropriate authority and, if requested, under an appropriate non-disclosure agreement.
+ 
+Any improper use, disclosure, or distribution of Materials made available through this site is a violation of your employment and/or non-disclosure agreements with c and may lead to disciplinary and other legal action, including suspension or termination of employment with c.
+ 
+ </string>
+	<string name="warning">Warning</string>
+	<string name="ok">Ok</string>
+	<string name="cancel">Cancel</string>
+   
+   <string name="drawer_open">Categories</string>
+    <string name="drawer_close">Dashboard</string>
+    
+    <!--  Search Screen  -->
+    <string name="search_update">Updating &#8230;</string>
+    
+  
+    
+    <!-- Login -->
+    <string name="login_label">BFS SET</string>
+    <string name="login_hint_enter_username">Enter username</string>
+    <string name="login_hint_enter_password">Enter password</string>
+    <string name="login_button_text">Login</string>
+    <string name="home">Home</string>
+    
+    
+    <!-- MUPDF -->
+      <string name="no_media_warning">Storage Media not present</string>
+    <string name="no_media_hint">Sharing the storage media with a PC can make it inaccessible</string>
+    <string name="open_failed">Unable to open document</string>
+   
+    <string name="search_backwards">Search backwards</string>
+    <string name="search_forwards">Search forwards</string>
+    <string name="search_document">Search document</string>
+    
+       <string name="picker_title">Pdf Writer &amp; Reader</string>
+    <string name="outline_title">Table of Contents</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="text_not_found">Text not found</string>
+    <string name="searching_">Searching...</string>
+    <string name="link_control">Link highlighting and enabling</string>
+    <string name="no_further_occurences_found">No further occurences found</string>
+</resources>
